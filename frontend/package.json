@@ -19,7 +19,7 @@
     "css:watch": "sass --watch src/styles/main.scss:src/styles/main.css",
     "css:compile": "sass src/styles/main.scss:src/styles/main.css",
     "css:prefix": "postcss --use autoprefixer -b \"last 4 versions\" src/styles/main.css -o src/styles/main.css",
-    "css:compress": "css-minify -f src/styles/main.css -o src/css",
+    "css:compress": "css-minify -f src/styles/main.css -o src/styles",
     "css:build": "npm-run-all css:compile css:prefix css:compress"
   },
   "eslintConfig": {
